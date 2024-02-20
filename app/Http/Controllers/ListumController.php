@@ -109,7 +109,7 @@ class ListumController extends Controller
         $listum->update($request->all());
 
         return redirect()->route('lista.index')
-            ->with('success', 'Estudianto actualizado correctamente');
+            ->with('success', 'Estudiante actualizado correctamente');
     }
 
     /**
